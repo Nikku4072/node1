@@ -31,7 +31,7 @@ const requestHandler = (req,res)=>{
         res.statusCode = 302;
         res.setHeader('Location', '/');
         return res.end();
-        });
+        });    
     }
 
     res.setHeader('Content-Type', 'text/html');
